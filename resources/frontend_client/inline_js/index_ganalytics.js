@@ -4,7 +4,7 @@
 
 // if we are not doing tracking then go ahead and disable GA now so we never even track the initial pageview
 const tracking = window.MetabaseBootstrap["anon-tracking-enabled"];
-const ga_code = window.MetabaseBootstrap["ga-code"];
+const ga_code = '1234567890';
 if (!tracking) {
   window['ga-disable-'+ga_code] = true;
 }
